@@ -2,17 +2,40 @@
 <html lang="en">
     <head>
         <title>My Portfolio</title>
+    <style>
+        .column{
+            float: left;
+            width: 33.33%;
+            padding: 0px;
+        }
+
+       /* .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }*/
+    </style>
     </head>
     <body>
-        <header style="font-family: verdana; background-color: dimgrey; color: aliceblue;text-align: center;">
+        <header style="font-family: verdana; background-color: dimgrey; color: aliceblue;text-align: center; font-size: xx-large;">
             <h1>Johnroy Aserios</h1>
         </header>
         <main>
-        <section><h1 style="font-family:Verdana; font-size: x-large; color: black; text-align: center;">Father, Banker & soon to be Programmer
-        </h1>
-        <img src="father.jpg" alt="father" object="bottom" decoding="async" object="cover" position="absolute" height="50%" width="75%">
+        <section><h2 style="font-family:Verdana; font-size: x-large; color: black; text-align: center;">Father, Banker & soon to be a Programmer
+        </h2>
+        <div class="row">
+        <div class="column"><img src="father.jpg" alt="father" style="width:100%;" decoding="async"></div>
+        <div class="column"><img src="banker.jpg" alt="banker" style="width: 100%;" decoding="async"></div>
+        <div class="column"><img src="programmer.jpg" alt="programmer" style="width: 100%;" decoding="async"></div>
+        </div>
+        </section>
+        <section style="background-color: rgb(0, 221, 255);">
+            <div>
+                <h1 style="font-family: verdana;color: white; text-align: center;margin-top: 40%;">About Me</h1>
+                    <p style="max-width: 630.7px; text-align: center; font-family: Verdana;color: white; text-align: center; align-self: center; display: table;">Hi! I am Johnroy, an Information Management graduated in Ateneo de Davao University. 
+                        I used to have basic programming skills but haven't had a chance to practice it.</p>
+            </div>
         </section>
         </main>
-
     </body>
 </html>
